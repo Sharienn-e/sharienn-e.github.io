@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header>
     <h1>👋 Hi, I'm Joanna</h1>
-    <p>TODO occupation</p>
+    <p>Computer Science Student at Masaryk University</p>
   </header>
 
   <nav>
@@ -17,30 +19,92 @@
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
+  <div class="container">
 
+    <main>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a third-year Computer Science student at Masaryk University with hands-on experience in several
+          programming
+          languages, most confident in Python and C. I enjoy building complex, impactful projects and love finding
+          creative solutions to challenging problems. I’m always looking to learn new technologies and expand my skill
+          set,
+          especially through real-world development experience.</p>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><strong>Portfolio Website:</strong> A personal portfolio site (this one!)</li>
+        </ul>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+          <li>
+            <strong>Intern developer at Progress Flowmon (2024)</strong>
+            <p>Implemented REST API using FastAPI, including design of endpoints and deployment to a virtual server via
+              Docker <i>(FastAPI, Docker, Python)</i>.<br>
+              Analyzed external data collection tools <i>(data analysis, visualization)</i>.
+            </p>
+          </li>
+          <li>
+            <strong>Catalog administrator at FAVI (2019–2023)</strong>
+            <p>Administration tasks in the catalog.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:aska.baranova@gmail.com">aska.baranova@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/joanna-baranova/" target="_blank" rel="noopener noreferrer">
+            linkedin.com/in/joanna-baranova/</a></p>
+      </section>
+    </main>
+
+    <!-- Sidebar -->
+    <aside>
+      <h2>Skills</h2>
+      <div class="skill">
+        <label>Python</label>
+        <progress value="85" max="100"></progress>
+      </div>
+      <div class="skill">
+        <label>C</label>
+        <progress value="70" max="100"></progress>
+      </div>
+      <div class="skill">
+        <label>Java</label>
+        <progress value="35" max="100"></progress>
+      </div>
+      <div class="skill">
+        <label>C#</label>
+        <progress value="35" max="100"></progress>
+      </div>
+
+      <div class="skill">
+        <label>HTML/CSS</label>
+        <progress value="60" max="100"></progress>
+      </div>
+      <div class="skill">
+        <label>React</label>
+        <progress value="30" max="100"></progress>
+      </div>
+      <div class="skill">
+        <label>Bash</label>
+        <progress value="30" max="100"></progress>
+      </div>
+    </aside>
   </div>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>TODO</p>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Portfolio Website:</strong> A personal portfolio site (this one!)</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: TODO</p>
-  </section>
-
   <footer>
-    <p>© 2025 TODO</p>
+    <p>© 2025 Joanna Baranova</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
+
 </html>
